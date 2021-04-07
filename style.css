@@ -8,5 +8,8 @@ body{
   background-repeat: no-repeat;
 }
 h1{
-  margin: 15px;
+  font-size: 50px;
+  color: #b22222;
+  font-weight: bold;
+  margin-top: 10px;
 }
