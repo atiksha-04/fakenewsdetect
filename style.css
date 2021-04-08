@@ -1,15 +1,43 @@
 *{
-  margin: 0;
-  padding: 0;
-}
+    margin: 0;
+    padding: 0;
+  }
+  
+ body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+  
+  h1{
+    font-size: 50px;
+    color: brown;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  input{
+      width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  position:relative;
+      top: 30px;
+      left: 200px;
+      background-color:burlywood;
+  }
 
-body{
-  background-image: url("bg.jpg");
-  background-repeat: no-repeat;
-}
-h1{
-  font-size: 50px;
-  color: #b22222;
-  font-weight: bold;
-  margin-top: 10px;
-}
+  button{
+      padding: 5px;
+      background-color: cadetblue;
+      font-size: 15px;
+      position:relative;
+      top: 35px;
+      left: 200px;
+  }
+  
+  p{
+      position: relative;
+      top:30px;
+      left:250px;
+      font-size: 20px;
+  }
